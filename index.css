@@ -1,0 +1,51 @@
+.time h1 {
+    display: inline-block;
+    margin-top: 15px;
+    margin-top: 24px;
+    font-size: 61px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.cont {
+    width: 300px;
+    background-color: rgb(9, 105, 170);
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    height: 170px;
+}
+
+.allButtons ul {
+    list-style: none;
+}
+
+.allButtons ul li {
+    display: inline-block;
+}
+
+.allButtons ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: block;
+    padding: 8px 16px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.allButtons ul li a:hover {
+    background-color: rgb(4, 75, 122);
+    ;
+}
+
+.time {
+    text-align: center;
+}
+
+.allButtons {
+    position: absolute;
+    top: 100px;
+    left: -22px
+}
