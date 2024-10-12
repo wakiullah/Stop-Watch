@@ -4,7 +4,6 @@ let strat = document.querySelector('.strat')
 let reset = document.querySelector('.Reset')
 let pause = document.querySelector('.pause')
 let ifalse = false
-
 let sec = 0
 let min = 0
 
@@ -52,14 +51,11 @@ strat.addEventListener('click', starts)
 pause.addEventListener('click', pauses)
 reset.addEventListener('click', resets)
 
-
-
 function starting() {
     if (!ifalse) {
         ifalse = true
         time = setInterval(function() {
             sec++
-
             if (sec < 10) {
                 second.innerText = `0${sec}`
             } else {
